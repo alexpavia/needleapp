@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="table">
+<head>
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+	<h1>Needle Assignment</h1>
+	<h2>Alex Pavia</h2>
+		
+	<div ng-controller="TableCtrl"></div>
+		<table>
+			<tr>
+				<th>Col 1</th>
+				<th>Col 2</th>
+				<th>Col 3</th>
+				<th>Col 4</th>
+				<th>Col 5</th>
+				<th>Col 6</th>
+				<th>Total</th>
+			</tr>
+			<tr>
+				<td><input type="text" id="column1"/></td>
+				<td><input type="text" id="column2"/></td>
+				<td><input type="text" id="column3"/></td>
+				<td><input type="text" id="column4"/></td>
+				<td><input type="text" id="column5"/></td>
+				<td><input type="text" id="column6"/></td>
+				<td>{{columnTotals}}</td>
+			</tr>
+			<tr>
+				<td>total</td>
+				<td>total</td>
+				<td>total</td>
+				<td>total</td>
+				<td>total</td>
+				<td>total</td>
+				<td>total</td>
+			</tr>
+		</table>
+	</div>
+		
+	
+</body>
+</html>
